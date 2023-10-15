@@ -3,11 +3,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 import homeLogo from '../../assets/home.svg';
 import Particle from '../Particle';
 import Type from './Type';
-import { useTranslation } from 'react-i18next';
+import STATICS from '../../translation';
 
 function Home() {
-  const { t } = useTranslation();
-
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -16,7 +14,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                {t('Greeting')}{' '}
+                {STATICS.Greeting}{' '}
                 <span
                   className="wave"
                   role="img"
@@ -27,7 +25,7 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                {t('Im')}
+                {STATICS.Im}
                 <strong className="main-name"> Gourav Lalotra</strong>
               </h1>
 

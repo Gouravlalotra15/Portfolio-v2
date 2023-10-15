@@ -3,21 +3,20 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
 import BtnToggleTheme from './BtnTottleTheme';
-import { Col, Dropdown, Row } from 'react-bootstrap';
-import { useTranslation } from 'react-i18next';
+import { Col, Row } from 'react-bootstrap';
 
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from 'react-icons/ai';
+import STATICS from '../translation';
 
 // import { MdLanguage } from 'react-icons/md';
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   // const [lang, setLang] = useState('en');
-  const { t, i18n } = useTranslation();
 
   // const changeLanguage = (lng) => {
   //   i18n.changeLanguage(lng);
@@ -61,7 +60,7 @@ function NavBar() {
               onClick={() => updateExpanded(false)}
             >
               <AiOutlineUser style={{ marginBottom: '3px' }} />{' '}
-              {t('About')}
+              {STATICS.About}
             </Nav.Link>
           </Nav.Item>
 
@@ -74,7 +73,7 @@ function NavBar() {
               <AiOutlineFundProjectionScreen
                 style={{ marginBottom: '3px' }}
               />{' '}
-              {t('Projects')}
+              {STATICS.Projects}
             </Nav.Link>
           </Nav.Item>
         </Nav>

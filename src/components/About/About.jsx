@@ -4,11 +4,9 @@ import Particle from '../Particle';
 import Techstack from './Techstack';
 import Aboutcard from './AboutCard';
 import laptopImg from '../../assets/about.svg';
-import { useTranslation } from 'react-i18next';
+import STATICS from '../../translation';
 
 function About() {
-  const { t } = useTranslation();
-
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -23,7 +21,8 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: '2.1em', paddingBottom: '20px' }}>
-              {t('AboutHeader')} <strong className="green">Me</strong>
+              {STATICS.AboutHeader}{' '}
+              <strong className="green">Me</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -36,10 +35,9 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          <strong className="green">{t('Languages')} </strong>
-          {t('And')}{' '}
-          <strong className="green">{t('Frameworks')} </strong>{' '}
-          {t('IUse')}
+          <strong className="green">{STATICS.Languages} </strong>
+          {'And'} <strong className="green">{'Frameworks'} </strong>{' '}
+          {'IUse'}
         </h1>
 
         <Techstack />
