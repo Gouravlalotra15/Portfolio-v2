@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ea2f6e0.css",
-    "main.js": "/static/js/main.7fb18cbb.js",
-    "static/js/787.0777395a.chunk.js": "/static/js/787.0777395a.chunk.js",
+    "main.css": "/static/css/main.85487b35.css",
+    "main.js": "/static/js/main.2371a6b7.js",
+    "static/js/787.d9a20797.chunk.js": "/static/js/787.d9a20797.chunk.js",
     "static/media/Youtube.png": "/static/media/Youtube.89297001025cfff75759.png",
     "static/media/Wermin.png": "/static/media/Wermin.8482c5bc107d49c8fbd2.png",
     "static/media/home.svg": "/static/media/home.11d38661c5585fd9fd2858c3e4b20709.svg",
@@ -11,12 +11,12 @@
     "static/media/pre.svg": "/static/media/pre.e7fd2044b0329ce590e2.svg",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.3ea2f6e0.css.map": "/static/css/main.3ea2f6e0.css.map",
-    "main.7fb18cbb.js.map": "/static/js/main.7fb18cbb.js.map",
-    "787.0777395a.chunk.js.map": "/static/js/787.0777395a.chunk.js.map"
+    "main.85487b35.css.map": "/static/css/main.85487b35.css.map",
+    "main.2371a6b7.js.map": "/static/js/main.2371a6b7.js.map",
+    "787.d9a20797.chunk.js.map": "/static/js/787.d9a20797.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ea2f6e0.css",
-    "static/js/main.7fb18cbb.js"
+    "static/css/main.85487b35.css",
+    "static/js/main.2371a6b7.js"
   ]
 }
