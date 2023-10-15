@@ -1,5 +1,6 @@
 {
-  "name": "portfolio-v2",
+  "homepage":"https://gouravlalotra15.github.io/Portfolio-v2/",
+  "name": "Portfolio-v2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +16,6 @@
     "react": "^17.0.2",
     "react-bootstrap": "^2.2.1",
     "react-dom": "^17.0.2",
-    "react-github-calendar": "^3.2.2",
     "react-i18next": "^12.1.5",
     "react-icons": "^4.3.1",
     "react-parallax-tilt": "^1.7.42",
@@ -31,7 +31,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && cp build/index.html build/404.html",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
