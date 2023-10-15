@@ -5,6 +5,7 @@ import Particle from '../Particle';
 
 import Message from '../../assets/Projects/Message.png';
 import Wermin from '../../assets/Projects/Wermin.png';
+import Snake from '../../assets/Projects/Snake-game.png';
 import Youtube from '../../assets/Projects/Youtube.png';
 import { useTranslation } from 'react-i18next';
 
@@ -48,10 +49,21 @@ function Projects() {
             <ProjectCard
               imgPath={Youtube}
               isBlog={false}
-              title="Pandas AI"
+              title="Youtube"
               description={t(`YouTube Clone is an efficacious video-sharing solution that aids you in launching your video streaming software. The app allows
               admin to add an unlimited collection of videos to keep the users hooked to the app.`)}
               link="https://youtube-clone-seven-lake.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Snake}
+              isBlog={false}
+              title="Snake Game"
+              description={t(`Control the direction of the snake’s head with the arrow keys (up, down, left, or right) and the snake’s body follows.The player
+              must keep the snake from colliding with itself and the boundary, which gets harder as the snake lengthens.`)}
+              link="https://snake-game-iota-eight.vercel.app/"
             />
           </Col>
         </Row>
