@@ -26,8 +26,10 @@ function Projects() {
             <ProjectCard
               imgPath={Wermin}
               title="Wermin"
-              description={`Developed fully responsive E-commerce website, ensuring seamless user experience across devices. Implemented advanced
-              state management, enhancing performance and enabling efficient data flow.`}
+              techStack="TechStack:- react,react-query,redux-toolkit"
+              description={`
+              Developed fully responsive E-commerce website, ensuring seamless user experience across devices. Implemented using advanced
+              state management library, enhancing performance and enabling efficient data flow.`}
               link="https://wermins-store.vercel.app/"
             />
           </Col>
@@ -37,8 +39,7 @@ function Projects() {
               imgPath={Message}
               isBlog={false}
               title="Secure-Messenger"
-              description={`Dedicated rooms for secure and closed communications.Other users are notified whenever any user enters/leaves the room. All
-              messages are encrypted with AES Encyption.`}
+              description="A chat application built with React, Nodejs powered by Socket.io, with AES encryption for secure communication. Dedicated rooms for secure and closed communications. Other users are notified whenever any user enters/leaves the room."
               link="https://secure-chat-messenger.onrender.com/"
             />
           </Col>
@@ -59,7 +60,7 @@ function Projects() {
               imgPath={Snake}
               isBlog={false}
               title="Snake Game"
-              description={`Control the direction of the snake’s head with the arrow keys (up, down, left, or right) and the snake’s body follows.The player
+              description={`Control the direction of the snake’s head with the arrow keys (up, down, left, or right) and the snake’s body follows. The player
               must keep the snake from colliding with itself and the boundary, which gets harder as the snake lengthens.`}
               link="https://snake-game-iota-eight.vercel.app/"
             />

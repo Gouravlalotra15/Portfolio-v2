@@ -37,7 +37,7 @@ function About() {
         <h1 className="project-heading">
           <strong className="green">{STATICS.Languages} </strong>
           {'And'} <strong className="green">{'Frameworks'} </strong>{' '}
-          {'IUse'}
+          {'I Use'}
         </h1>
 
         <Techstack />
