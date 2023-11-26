@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio-v2/static/css/main.445a219b.css",
-    "main.js": "/Portfolio-v2/static/js/main.f360e69e.js",
+    "main.css": "/Portfolio-v2/static/css/main.8b2b3a90.css",
+    "main.js": "/Portfolio-v2/static/js/main.508f218b.js",
     "static/js/787.0777395a.chunk.js": "/Portfolio-v2/static/js/787.0777395a.chunk.js",
     "static/media/Youtube.png": "/Portfolio-v2/static/media/Youtube.89297001025cfff75759.png",
     "static/media/Wermin.png": "/Portfolio-v2/static/media/Wermin.8482c5bc107d49c8fbd2.png",
     "static/media/home.svg": "/Portfolio-v2/static/media/home.11d38661c5585fd9fd2858c3e4b20709.svg",
     "static/media/about.svg": "/Portfolio-v2/static/media/about.fcd5f18ce5007375f7f31eaad46ce0f6.svg",
     "static/media/Snake-game.png": "/Portfolio-v2/static/media/Snake-game.752c70d59d399e4d1f0f.png",
-    "static/media/pre.svg": "/Portfolio-v2/static/media/pre.e7fd2044b0329ce590e2.svg",
+    "static/media/pre.svg": "/Portfolio-v2/static/media/pre.06d70e65d5815c4c7a5d.svg",
     "index.html": "/Portfolio-v2/index.html",
     "static/media/getFetch.cjs": "/Portfolio-v2/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.445a219b.css.map": "/Portfolio-v2/static/css/main.445a219b.css.map",
-    "main.f360e69e.js.map": "/Portfolio-v2/static/js/main.f360e69e.js.map",
+    "main.8b2b3a90.css.map": "/Portfolio-v2/static/css/main.8b2b3a90.css.map",
+    "main.508f218b.js.map": "/Portfolio-v2/static/js/main.508f218b.js.map",
     "787.0777395a.chunk.js.map": "/Portfolio-v2/static/js/787.0777395a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.445a219b.css",
-    "static/js/main.f360e69e.js"
+    "static/css/main.8b2b3a90.css",
+    "static/js/main.508f218b.js"
   ]
 }

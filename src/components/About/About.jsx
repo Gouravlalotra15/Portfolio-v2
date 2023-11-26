@@ -7,6 +7,7 @@ import laptopImg from '../../assets/about.svg';
 import STATICS from '../../translation';
 
 function About() {
+  // chanded the build folder name to docs
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -34,6 +35,7 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+
         <h1 className="project-heading">
           <strong className="green">{STATICS.Languages} </strong>
           {'And'} <strong className="green">{'Frameworks'} </strong>{' '}
